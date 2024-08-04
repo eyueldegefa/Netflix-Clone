@@ -1,0 +1,28 @@
+.header-Wrapper{
+    position: sticky;
+    top: 0;
+    background-color: #111;
+    background-color: transparent;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    background-color: black;
+}
+.headerlists{
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.gvspace{
+    margin-right: 20px;
+}
+.nflogo{
+    padding-top: 15px;
+}
