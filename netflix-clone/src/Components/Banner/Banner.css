@@ -1,0 +1,25 @@
+.banner{
+    height: 380px;
+}
+.banner-contents{
+    padding-left: 100px;
+}
+.banner-title{
+    color: white;
+    padding-top: 30vh;
+    font-size: xx-large
+}
+.banner-button-play{
+    padding: 10px 40px;
+    margin-right: 10px;
+}
+.banner-button-mylist{
+    padding: 10px 45px;
+    color: white;
+    background-color: gray;
+}
+.banner-description{
+    font-size: medium;
+    width: 30%;
+    color: white;
+}
