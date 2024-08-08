@@ -27,8 +27,8 @@ const Banner = () => {
            style={{
             backgroundSize: "cover",
             backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
+            backgroundRepeat: "no-repeat",
+            backgroundosition: "center"
            }}
         >
             <div className='banner-contents'>
@@ -41,7 +41,7 @@ const Banner = () => {
                 </div>
                 <h1 className='banner-description'>{truncate(movie?.overview, 150)}</h1>
             </div>
-        <div className='' />
+            <div className='' />
         </div>
     )
 }

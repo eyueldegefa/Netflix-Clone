@@ -1,12 +1,12 @@
 .banner{
-    height: 380px;
+    height: 500px;
 }
 .banner-contents{
-    padding-left: 100px;
+    padding: 150px 100px;
 }
 .banner-title{
     color: white;
-    padding-top: 30vh;
+    padding-top: 20vh;
     font-size: xx-large
 }
 .banner-button-play{
