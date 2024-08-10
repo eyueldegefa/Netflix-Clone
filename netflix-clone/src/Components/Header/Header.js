@@ -12,13 +12,13 @@ const Header = () => {
       <div className='Leftside'>
         <ul className='headerlists'>
             <li className='nflogo'><img src={Logo} alt="Netflix Logo" width="100"/></li>
-            <li className='gvspace'>Netflix</li>
-            <li className='gvspace'>Home</li>
-            <li className='gvspace'>TVShows</li>
-            <li className='gvspace'>Movies</li>
-            <li className='gvspace'>Latest</li>
-            <li className='gvspace'>MyList</li>
-            <li className='gvspace'>Browse by languages</li>
+            <li className='gvspace d-none d-md-block'>Netflix</li>
+            <li className='gvspace d-none d-md-block'>Home</li>
+            <li className='gvspace d-none d-md-block'>TVShows</li>
+            <li className='gvspace d-none d-md-block'>Movies</li>
+            <li className='gvspace d-none d-md-block'>Latest</li>
+            <li className='gvspace d-none d-md-block'>MyList</li>
+            <li className='gvspace d-none d-md-block'>Browse by languages</li>
         </ul>
       </div>
 

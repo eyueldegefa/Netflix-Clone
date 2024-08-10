@@ -1,4 +1,5 @@
 .banner{
+    top: 0;
     height: 500px;
 }
 .banner-contents{
@@ -22,4 +23,26 @@
     font-size: medium;
     width: 30%;
     color: white;
+}
+@media screen and (max-width: 560px) {
+    .banner{
+        height: 200px;
+        width: 100%;
+    }
+    .banner-description{
+        font-size: 10px;
+        width: 40%;
+        
+    }
+    .banner-button-play, .banner-button-mylist{
+        padding: 1px 10px;
+    }
+    .banner-title{
+        font-size: smaller;
+        padding-top: 80px;
+    }
+    .banner-contents{
+        padding: 0;
+        padding-left: 30px;
+    }
 }

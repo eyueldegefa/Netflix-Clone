@@ -1,7 +1,6 @@
 .header-Wrapper{
     position: sticky;
     top: 0;
-    background-color: #111;
     background-color: transparent;
     display: flex;
     /* justify-content: center; */
@@ -12,17 +11,28 @@
     transition: all 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
-    /* background-color: black; */
+    background-color: black;
 }
 .headerlists{
     color: white;
     list-style: none;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .gvspace{
     margin-right: 20px;
+    padding-top: 7px;
+}
+.gvspace:hover{
+    transform: scale(1.08);
+    color: red;
 }
 .nflogo{
     padding-top: 15px;
+}
+@media screen and (max-width: 560px) {
+    .header-Wrapper{
+        height: 6vh;
+    }
 }

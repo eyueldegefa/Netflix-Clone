@@ -8,42 +8,42 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 const Footer = () => {
   return (
     <div className='footer-wrapper'>
-      <div>
-        <ul className='footerlists footer-wrapper'>
-          <li><FacebookOutlinedIcon /></li>
-          <li><InstagramIcon /></li>
-          <li><YouTubeIcon /></li>
+      <div className=''>
+        <ul className='footerlists d-flex '>
+          <li className='l g'><FacebookOutlinedIcon /></li>
+          <li className='l g'><InstagramIcon /></li>
+          <li className='l g'><YouTubeIcon /></li>
         </ul>
         <ul className='footerlists'>
-          <li>Audio Description</li>
-          <li>Investor Relation</li>
-          <li>Legal Notice</li>
-          <li className='secret-code'>Service Code</li>
-          <li className='copy-right'>&copy; 1997-2024 Netflix, Inc.</li>
-        </ul>
-      </div>
-
-      <div>
-        <ul className='footerlists'>
-          <li>Help Center</li>
-          <li>Jobs</li>
-          <li>Cookie Preferences</li>
+          <li className='l'>Audio Description</li>
+          <li className='l'>Investor Relation</li>
+          <li className='l'>Legal Notice</li>
+          <li className='l secret-code'>Service Code</li>
+          <li className='l copy-right'>&copy; 1997-2024 Netflix, Inc.</li>
         </ul>
       </div>
 
       <div>
         <ul className='footerlists'>
-          <li>Gift Cards</li>
-          <li>Terms of Use</li>
-          <li>Corporate Information</li>
+          <li className='l'>Help Center</li>
+          <li className='l'>Jobs</li>
+          <li className='l'>Cookie Preferences</li>
         </ul>
       </div>
 
       <div>
         <ul className='footerlists'>
-          <li>Media Center</li>
-          <li>Privacy</li>
-          <li>Contact Us</li>
+          <li className='l'>Gift Cards</li>
+          <li className='l'>Terms of Use</li>
+          <li className='l'>Corporate Information</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul className='footerlists'>
+          <li className='l'>Media Center</li>
+          <li className='l'>Privacy</li>
+          <li className='l'>Contact Us</li>
         </ul>
       </div>
     </div>
