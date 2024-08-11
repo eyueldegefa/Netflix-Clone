@@ -12,16 +12,22 @@
 }
 .banner-button-play{
     padding: 10px 40px;
-    margin-right: 10px;
+    margin-right: 15px;
+    border: 0px;
 }
 .banner-button-mylist{
     padding: 10px 45px;
     color: white;
     background-color: gray;
+    border: 0px;
 }
 .banner-description{
     font-size: medium;
     width: 30%;
+    color: white;
+}
+.hovr:hover{
+    background-color: black;
     color: white;
 }
 @media screen and (max-width: 560px) {

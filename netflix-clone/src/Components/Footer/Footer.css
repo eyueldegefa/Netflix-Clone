@@ -23,6 +23,7 @@
 .l:hover{
     cursor: pointer;
     transform: scale(1.07);
+    color: red;
 }
 .g:hover{
     transform: scale(1.5);

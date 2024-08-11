@@ -19,7 +19,7 @@ const Footer = () => {
           <li className='l'>Investor Relation</li>
           <li className='l'>Legal Notice</li>
           <li className='l secret-code'>Service Code</li>
-          <li className='l copy-right'>&copy; 1997-2024 Netflix, Inc.</li>
+          <li className='copy-right'>&copy; 1997-2024 Netflix, Inc.</li>
         </ul>
       </div>
 

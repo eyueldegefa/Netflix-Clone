@@ -23,7 +23,7 @@ const Banner = () => {
         return str?.length > n ? str.substr(0, n - 1) + '...' : str;
     }
     return (
-        <div className='banner'
+        <div className='banner '
            style={{
             backgroundSize: "cover",
             backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`,
@@ -36,8 +36,8 @@ const Banner = () => {
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
                 <div className='banner-buttons'>
-                    <button className='banner-button-play'>Play</button>
-                    <button className='banner-button-mylist'>My List</button>
+                    <button className='hovr banner-button-play'>Play</button>
+                    <button className='hovr banner-button-mylist'>My List</button>
                 </div>
                 <h1 className='banner-description'>{truncate(movie?.overview, 150)}</h1>
             </div>
